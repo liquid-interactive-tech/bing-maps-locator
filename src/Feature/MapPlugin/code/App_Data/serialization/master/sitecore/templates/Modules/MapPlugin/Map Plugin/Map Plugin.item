@@ -1,0 +1,25 @@
+---
+ID: "b7df997a-c519-4674-83e6-cb6fe5152758"
+Parent: "e15035bd-ec6d-479f-b033-d48195475442"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Modules/MapPlugin/Map Plugin/Map Plugin
+DB: master
+Created: 20200506T184032Z
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200506T184032Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5baf20f0-3662-4a38-b5cd-d73d01ff584f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200519T173145Z

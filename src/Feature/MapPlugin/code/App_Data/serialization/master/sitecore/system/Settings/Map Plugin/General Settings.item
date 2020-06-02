@@ -1,0 +1,36 @@
+---
+ID: "676eea9f-8fd4-4d17-b72c-c020488e289a"
+Parent: "94a0ade4-4060-4761-a635-10d5ab428bc9"
+Template: "9f61a8ea-efc8-4284-b212-3d28e7cbcd8c"
+Path: /sitecore/system/Settings/Map Plugin/General Settings
+DB: master
+Created: 20200519T173032Z
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200519T173032Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ea57aa5a-eba1-4843-b98b-1edee1545bf7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d6dfe9b4-14cd-4c5d-8bcd-c75145ea47e6"
+      Hint: Map Plugin API Key
+      Value: "An-ohbmQwRzdUTm1Npcn5DO45aDIZpBqEkSJpaFnnHWKGABJL-INTa9uWhh2urFF"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200519T174659Z

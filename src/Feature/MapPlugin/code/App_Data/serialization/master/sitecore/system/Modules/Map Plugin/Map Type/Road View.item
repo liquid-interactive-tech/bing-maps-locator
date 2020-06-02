@@ -1,0 +1,36 @@
+---
+ID: "d6f5ce6d-0b4c-4a6c-b0ee-d19dd7be0fed"
+Parent: "e356951e-b504-4f00-895d-6781c85db7f6"
+Template: "7f45d9dd-5c00-4d83-98c6-521c891d9a80"
+Path: /sitecore/system/Modules/Map Plugin/Map Type/Road View
+DB: master
+Created: 20200511T161219Z
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200511T161219Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "76e4a6c2-ca06-47e7-903e-dc5e8848dbd7"
+      Hint: Value
+      Value: Microsoft.Maps.MapTypeId.road
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "295025fe-9c1d-4c15-94ed-13700aefae0b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200511T170737Z

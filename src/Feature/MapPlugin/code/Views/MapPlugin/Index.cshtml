@@ -1,0 +1,34 @@
+﻿@model Liquid.Feature.MapPlugin.Models.MapPluginViewModel
+
+@* Style references. TO-DO: Use ScriptBundle/sitecore pipeline to load resources. *@
+<link rel="stylesheet" type="text/css" href="~/sitecore modules/Liquid/MapPlugin/css/map.css" />
+
+@* Script references. TO-DO: Use ScriptBundle/sitecore pipeline to load resources. *@
+<script type="text/javascript" src="//www.bing.com/api/maps/mapcontrol?callback=BingMapsLoaded&key=@Model.ApiKey" defer></script>
+<script type="text/javascript" src="~/sitecore modules/Liquid/MapPlugin/js/map.js" defer></script>
+
+@if (!@Model.DisableSearch)
+{
+    <div class="bing-container">
+        <input type="text" class="bing-input" placeholder="Find your nearest location..." />
+    </div>
+}
+<div id="map-@Model.Guid" class="liquid-map">
+    @if (String.IsNullOrEmpty(Model.ApiKey))
+    {
+        <div>The map is not available at this time.</div>
+    }
+</div>
+
+<script type="text/javascript">
+    function BingMapsLoaded() {
+        var options = {
+            disableZooming: @Model.DisableZooming.ToString().ToLower(),
+            disableScrollWheelZoom: @Model.DisableZooming.ToString().ToLower(),
+            showMapTypeSelector: false,
+            mapTypeId: @Model.MapTypeId
+        };
+        Liquid.MapPlugin.GetMap("map-@Model.Guid", options);
+        Liquid.MapPlugin.AutoSuggest();
+	}
+</script> 
