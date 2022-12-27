@@ -1,3 +1,8 @@
+# ** PROJECT IS INACTIVE **
+Liquid Interactive does not have any plans to continune to maintain this project at this time. We encourage the usage and exploration of existing and future Github Forks of this project to continue its development moving forward. 
+
+Need a custom Sitecore module and/or Website to be professionally architected/designed/developed? Drop us your request at [hello@liquidint.com](mailto:hello@liquidint.com)!
+
 # Sitecore Map Plugin
 
 This is a Sitecore 9.2+ supported module which installs a Bing Map rendering to be used throughout your website. Easily manage pushpin locations directly through the Content Editor. There or no third-party requirements necessary &mdash; install and run.
